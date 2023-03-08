@@ -32,7 +32,7 @@
 }
 
 .donate-image {
-    background-image: url(images/donation5.jpg);
+    background-image: url(../images/donation5.jpg);
     background-color: #cccccc;
     height: 600px;
     background-repeat: no-repeat;
