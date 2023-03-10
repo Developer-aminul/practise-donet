@@ -72,7 +72,8 @@
 }
 
 .btn-primary {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding: 16px 30px;
     border: none;
     border-radius: 5px;
@@ -112,6 +113,7 @@
 hr {
     width: 40%;
     margin: auto;
+
 }
 
 
@@ -125,7 +127,7 @@ hr {
 
 .our-donate-section .section-title {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
     font-weight: 700;
     font-size: 35px;
 
@@ -166,6 +168,7 @@ hr {
     border-radius: 5px;
     padding: 30px;
     margin-top: 20px;
+    margin-left: 20px;
 
 }
 
@@ -198,4 +201,99 @@ hr {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* news blog styles */
+
+.news-section {
+    margin-top: 80px;
+}
+
+.news-box {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.image-size {
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
+.news-box-image {
+    width: 40%
+}
+
+
+.news-box-text {
+    width: 40%;
+    padding: 50px;
+    margin-left: 70px;
+
+}
+
+.news-box-title {
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-weight: 400px;
+    margin-right: 20px;
+}
+
+.news-box-description {
+    font-size: 18px;
+    color: gray;
+    margin-right: 30px;
+
+}
+
+.news-btn {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-weight: 30px;
+    color: white;
+    background-color: red;
+}
+
+/* news second blog */
+
+.news-second-blog {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.news-second-blog {
+    margin: 50px;
+    padding: 20px;
+}
+
+.news-second-box-image {
+    padding-left: 50px;
+}
+
+.news-second-box-text {
+    width: 40%;
+    padding: 50px;
+    margin-left: 70px;
+}
+
+.news-second-box-title {
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-weight: 400px;
+    margin-right: 20px;
+}
+
+.news-second-box-description {
+    font-size: 18px;
+    color: gray;
+    margin-right: 30px;
 }
